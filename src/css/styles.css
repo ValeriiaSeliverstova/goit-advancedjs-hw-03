@@ -138,6 +138,8 @@ ul {
 
 /* HTML: <div class="loader"></div> */
 .loader {
+  position: fixed;
+  right: 50%;
   display: none;
   width: 60px;
   aspect-ratio: 4;
