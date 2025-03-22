@@ -16,7 +16,6 @@ export function renderImages(result) {
         'Sorry, there are no images matching your search query. Please try again!',
     });
   }
-  console.log(result);
 
   const gallery = document.querySelector('.gallery');
   gallery.innerHTML = '';
@@ -68,4 +67,6 @@ export function renderImages(result) {
     overlay: true,
     overlayOpacity: 0.8,
   });
+
+  lightbox.refresh();
 }
