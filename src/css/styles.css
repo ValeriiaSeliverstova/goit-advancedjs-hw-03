@@ -16,7 +16,7 @@ ul {
   padding: 0;
 }
 
-.search-form {
+.form {
   margin: 36px auto;
   font-display: flex;
   justify-content: center;
@@ -26,7 +26,7 @@ ul {
   height: 40px;
 }
 
-.search-form input {
+.form input {
   width: 272px;
   height: 100%;
   border: 1px solid #808080;
@@ -38,20 +38,20 @@ ul {
   padding: 8px 16px;
 }
 
-.search-form input::placeholder {
+.form input::placeholder {
   color: #808080;
 }
 
-.search-form input:hover {
+.form input:hover {
   border: 1px solid #000;
 }
 
-.search-form input:focus {
+.form input:focus {
   border: 1px solid #4e75ff;
   outline: none;
 }
 
-.search-form button {
+.form button {
   background: #4e75ff;
   border-radius: 8px;
   width: 91px;
@@ -65,7 +65,7 @@ ul {
   padding: 8px 16px;
 }
 
-.search-form button:hover {
+.form button:hover {
   background: #6c8cff;
 }
 

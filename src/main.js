@@ -5,7 +5,7 @@ import iziToast from 'izitoast';
 // Додатковий імпорт стилів
 import 'izitoast/dist/css/iziToast.min.css';
 
-const searchForm = document.querySelector('.search-form');
+const searchForm = document.querySelector('.form');
 const input = document.querySelector('input[name="search-input"]');
 
 searchForm.addEventListener('submit', event => {
